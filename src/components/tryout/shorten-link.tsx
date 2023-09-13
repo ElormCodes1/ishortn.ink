@@ -110,7 +110,12 @@ export function TryOutTab() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button onClick={handleLinkShortenGeneration}>Shorten Link</Button>
+            <Button
+              onClick={handleLinkShortenGeneration}
+              className="text-sm text-white bg-black hover:text-green-600 hover:bg-green-50 active:scale-95 active:ring-4 active:ring-green-300 transition-transform duration-300 ease-in-out"
+            >
+              Shorten Link
+            </Button>
           </CardFooter>
         </Card>
       </TabsContent>
@@ -133,7 +138,9 @@ export function TryOutTab() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button>Generate</Button>
+            <Button className="text-sm text-white bg-black hover:text-green-600 hover:bg-green-50 active:scale-95 active:ring-4 active:ring-green-300 transition-transform duration-300 ease-in-out">
+              Generate
+            </Button>
           </CardFooter>
         </Card>
       </TabsContent>
